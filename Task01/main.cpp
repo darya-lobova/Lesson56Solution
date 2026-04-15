@@ -14,7 +14,11 @@ int main() {
 
 	int sum = sum_main_elements(matrix, n);
 
-	cout << "Sum is " << to_string(sum);
+	cout << "Sum of main elements is " << to_string(sum) << endl;
+
+	sum = sum_addition_elements(matrix, n);
+
+	cout << "Sum of addition elements is " << to_string(sum);
 
 	return 0;
 }
